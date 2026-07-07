@@ -1,0 +1,25 @@
+{
+  "name": "railway-discord-fetch-bot",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Discord bot for Railway.com with configuration-driven dynamic fetch commands, mutex-protected caching, exponential backoff, and structured telemetry.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/index.js --register-only"
+  },
+  "dependencies": {
+    "discord.js": "14.26.4"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "railway",
+    "discord.js",
+    "esm"
+  ],
+  "license": "MIT"
+}

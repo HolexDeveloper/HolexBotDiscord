@@ -1,0 +1,27 @@
+# Build artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# VCS / editor
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project docs (not needed at runtime)
+README.md
+*.md
+
+# Tests / scripts not required by the runner
+tests/
+coverage/
+.nyc_output/
